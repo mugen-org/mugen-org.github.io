@@ -1,0 +1,126 @@
+@import "vars";
+
+/*
+ * Basic
+ */
+
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 100px 0 0 0;
+    margin: 0;
+    font-family: "Inconsolata";
+    height: 100%;
+}
+
+h1 {
+    font-size: 34px;
+    margin: 20px 0 20px 0;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 14px 0 14px 0;
+}
+
+h3 {
+    font-size: 26px;
+    margin: 8px 0 8px 0;
+}
+
+h4 {
+    font-size: 22px;
+    margin: 4px 0 4px 0;
+}
+
+p {
+    line-height: 22px;
+    font-size: 16px;
+    color: $text-color;
+}
+
+a {
+    color: $text-color;
+    text-decoration: none;
+    border-bottom: 1px dashed $text-color;
+    text-underline-position: under;
+}
+
+a:hover {
+    color: $anchor-color;
+    border-bottom: 1px solid green;
+}
+
+hr {
+    margin: 10px 0 10px 0;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.anchor:before {
+  display: block;
+  content: " ";
+  margin-top: -80px;
+  height: 80px;
+  visibility: hidden;
+}
+
+.button-div {
+    border: 1px dashed black;
+    border-radius: 3px;
+    color: $text-color;
+    display: inline-block;
+    padding: 5px;
+
+    a {
+        border: 0px;
+    }
+}
+
+.button-div:hover {
+    border: 1px solid $anchor-color;
+    color: $anchor-color;
+}
+
+/* Mobile */
+
+@media (max-width: 800px) {
+    .container {
+        max-width: 100%;
+        transition: 0.3s ease all;
+    }
+}
+
+@media (max-width: 650px) {
+    .container {
+        max-width: 100%;
+    }
+    body {
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        max-width: 100%;
+    }
+    body {
+        padding-top: 100px;
+    }
+}
+
+.float-right {
+    float: right; 
+}
+
+button {
+    margin-right: 10px;
+}
+
+@import "typography";

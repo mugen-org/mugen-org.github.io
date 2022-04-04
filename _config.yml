@@ -1,0 +1,15 @@
+title: MUGEN
+description: A Playground for Video-Audio-Text Multimodal Understanding and GENeration
+
+# Build settings
+markdown: kramdown
+include: ['_pages']
+plugins_dir:
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+  sass_dir: _sass
+
+plugins:
+  - jekyll-redirect-from
