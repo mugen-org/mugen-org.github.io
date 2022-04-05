@@ -42,12 +42,9 @@ as a playground for multimodal research.
     </figure>
     </div>
 </div>
-
-  <!-- <div class="statistics-container row col-sm-12 col-xs-12 col-md-12">
-    <img src="/static/img/stat/stat.jpg" class="center" alt="statistics" title="statistics" width="100%"></div> -->
 <hr>
 
-<h2 class="anchor" id="people">People</h2>
+<h2 class="anchor" id="people">Team</h2>
 <div class="people-container">
 {% include people.html %}
 </div>
