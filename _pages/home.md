@@ -4,6 +4,10 @@ permalink: "/"
 ---
 
 <link rel="stylesheet" type="text/css" href="/static/css/home.css">
+
+Multimodal video-audio-text understanding and generation can benefit from datasets that are narrow but rich. The narrowness allows bite-sized challenges that the research community can make progress on. The richness ensures we are making progress along the core challenges. To this end, we present a large-scale video-audio-text dataset MUGEN, collected using the open-sourced platform game <a href="https://github.com/openai/coinrun">CoinRun</a>. We made substantial modifications to make the game richer by introducing audio and enabling new interactions. We trained RL agents with different objectives to navigate the game and interact with 13 objects and characters. This allows us to automatically extract a large collection of diverse videos and associated audio. We sample 375K video clips (3.2s each) and collect text descriptions from human annotators. Each video has additional annotations that are extracted automatically from the game engine, such as accurate semantic maps for each frame and templated textual descriptions. Altogether, MUGEN can help progress research in many tasks in multimodal understanding and generation. We benchmark representative approaches on tasks involving video-audio-text retrieval and generation. Both MUGEN and the enhanced game engine will be released to serve
+as a playground for multimodal research.
+
 <div class="statistics-container row col-sm-12 col-xs-12 col-md-12 center">
 <figure text-align="center">
 <img src="/static/img/stat/illustration.jpg" alt="illustration" title="illustration" width="100%">
@@ -11,37 +15,6 @@ permalink: "/"
 </figure>
 </div>
 
-Multimodal video-audio-text understanding and generation can benefit from datasets that are narrow but rich. The narrowness allows bite-sized challenges that the research community can make progress on. The richness ensures we are making progress along the core challenges. To this end, we present a large-scale video-audio-text dataset MUGEN, collected using the open-sourced platform game <a href="https://github.com/openai/coinrun">CoinRun</a>. We made substantial modifications to make the game richer by introducing audio and enabling new interactions. We trained RL agents with different objectives to navigate the game and interact with 13 objects and characters. This allows us to automatically extract a large collection of diverse videos and associated audio. We sample 375K video clips (3.2s each) and collect text descriptions from human annotators. Each video has additional annotations that are extracted automatically from the game engine, such as accurate semantic maps for each frame and templated textual descriptions. Altogether, MUGEN can help progress research in many tasks in multimodal understanding and generation. We benchmark representative approaches on tasks involving video-audio-text retrieval and generation. Both MUGEN and the enhanced game engine will be released to serve
-as a playground for multimodal research.
-<hr>
-
-<h2 class="anchor" id="explore">Explore</h2>
-<div class="explore-container">
-{% include explore.html %}
-</div>
-<hr>
-
-<h2 class="anchor" id="statistics">Statistics</h2>
-<div class="statistics-container row">
-    <div class="col-md-6 col-sm-6 col-xs-6">
-    <figure>
-    <img src="/static/img/stat/dist_auto_2.png" alt="statistics"  class="center" title="statistics" width="100%">
-    <figcaption style='text-align:center;'>(a) Characters and objects in video and text.</figcaption>
-    </figure>
-    </div>
-    <div class="col-md-6 col-sm-6 col-xs-6">
-    <figure>
-        <img src="/static/img/stat/agent_diversity_fig.png"  class="center" alt="statistics" title="statistics" width="100%">
-        <figcaption style='text-align:center;'>(b) Mugen's poses across the 14 RL agents.</figcaption>
-    </figure>
-    </div>
-    <div class="row">
-    <figure>
-        <img src="/static/img/stat/stat_aio.jpg"  class="center" alt="statistics" title="statistics" width="100%">
-        <figcaption style='text-align:center;'>(c) Characters, objects, actions and interactions in three splits and their occurrence per video.</figcaption>
-    </figure>
-    </div>
-</div>
 <hr>
 
 <h2 class="anchor" id="people">Team</h2>
