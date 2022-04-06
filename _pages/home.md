@@ -11,7 +11,7 @@ permalink: "/"
     <div class="col-md-6 col-sm-6 col-xs-6 col-12">
       <!-- <img alt="{{ site.title }}" title="{{ site.title }}" id="teaser-figure" src="/static/img/paper/teaser.jpg"> -->
       <video width="512" height="512" controls>
-      <source src="static/video/cat_model_gamev2_fine_tune_m4_jump_penalty_seed_607_level_0560_video_frames_0187_to_0282.mp4" type="video/mp4">
+      <source src="static/video/MUGEN_final.mp4" type="video/mp4">
       </video>
       <p id="teaser-caption">
         An overview of MUGEN.
