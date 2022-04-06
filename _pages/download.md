@@ -6,7 +6,7 @@ permalink: "/download"
 <link rel="stylesheet" type="text/css" href="/static/css/home.css">
 
 <h2 class="anchor" id="download">Download</h2>
-<div class="download-container row">
+<div class="download-container row"  style="margin-top:50px">
   <div class="col-md-6 col-sm-6 col-xs-12 col-12">
     <a class="button-div" href="">
     Download 3.2s Video Clips Version

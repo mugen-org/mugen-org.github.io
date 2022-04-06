@@ -6,7 +6,7 @@ permalink: "/data"
 <link rel="stylesheet" type="text/css" href="/static/css/home.css">
 
 <h2 class="anchor" id="explore">Examples</h2>
-<div class="explore-container">
+<div class="explore-container" style="margin-top:50px">
 {% include explore.html %}
 </div>
 <hr>

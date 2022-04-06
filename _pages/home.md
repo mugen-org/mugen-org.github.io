@@ -5,7 +5,7 @@ permalink: "/"
 
 <link rel="stylesheet" type="text/css" href="/static/css/home.css">
 
-<div class="container">
+<div class="container" style="margin-top:75px">
   <div class="row">
     <!-- Teaser figure -->
     <div class="col-md-6 col-sm-6 col-xs-6 col-12">
