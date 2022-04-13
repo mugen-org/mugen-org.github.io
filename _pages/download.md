@@ -8,7 +8,7 @@ permalink: "/download"
 <h2 class="anchor" id="download">Download</h2>
 <div class="download-container row"  style="margin-top:50px">
   <div class="col-md-6 col-sm-6 col-xs-12 col-12">
-    <a class="button-div" href="">
+    <a class="button-div" href="http://dl.noahmt.com/creativity/data/MUGEN_release/coinrun.zip">
     Download 3.2s Video Clips Version
     </a>
   </div>
@@ -30,6 +30,7 @@ permalink: "/download"
   <div class="col-md-12 col-sm-12 col-xs-12 col-12">
   </div>
   <div class="col-md-12 col-sm-12 col-xs-12 col-12" style= "white-space: nowrap; overflow-x: scroll;">
+  The annotation files (within coinrun_dataset_jsons/ folder) are of the following format:
     <pre><code>
     {
         "metadata": {
@@ -38,7 +39,7 @@ permalink: "/download"
             'game_events': ['collect_coin', 'kill_monster', 'killed_by_monster', 'collect_gem'],
             'action_verbs': ['jump', 'collect', 'walk', 'run', 'move', 'climb', 'fall', 'turn', 'land', 'drop', 'grab', 'hop', 'kill', 'eat', 'hit', 'die'],
             'characters': ['mugen', 'gem', 'gear', 'bee', 'face', 'slime', 'mouse', 'snail', 'ladybug', 'worm', 'frog', 'barnacle', 'coin'],
-            'data_folder': 'dataset/mugen/coinrun_v2_video_data',
+            'data_folder': 'dataset/coinrun/coinrun_v2_video_data',
             'split': 'test'
         },
         "data": [
@@ -48,7 +49,7 @@ permalink: "/download"
                     'json_file': 'model_gamev2_fine_tune_squat_penalty_die_reward_1.0_seed_402/video_metadata/model_gamev2_fine_tune_squat_penalty_die_reward_1.0_seed_402_level_0469_video_frames_0175_to_0270.json', 
                     'audio_map_file': 'model_gamev2_fine_tune_squat_penalty_die_reward_1.0_seed_402/audio_semantic_map/audio_map.txt',
                     'world_theme_n': 0, 
-                    'video_file': 'model_gamev2_fine_tune_squat_penalty_die_reward_1.0_seed_402/videos/model_gamev2_fine_tune_squat_penalty_die_reward_1.0_seed_402_level_0469_video_frames_0175_to_0270.mp4', 
+                    'audio_file': 'model_gamev2_fine_tune_squat_penalty_die_reward_1.0_seed_402/audios/model_gamev2_fine_tune_squat_penalty_die_reward_1.0_seed_402_level_0469_video_frames_0175_to_0270.wav', 
                     'gt_characters': ['mugen', 'coin', 'gear'], 
                     'game_events': ['collect_coin', 'killed_by_monster'], 
                     'num_frames': 96
