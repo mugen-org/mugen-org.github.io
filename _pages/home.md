@@ -47,7 +47,7 @@ permalink: "/"
     <span class="paper-link">
       <b>Arxiv</b>
     </span>
-    <a class="paper-link button-div" href="/static/bibliography/bibtex.txt" target="_blank">
+    <a class="paper-link button-div" href="static/bibliography/bibtex.txt" target="_blank">
       bibtex
     </a>
   </div>
