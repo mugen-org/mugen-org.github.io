@@ -40,7 +40,7 @@ permalink: "/"
   </div>
   <!-- negative margin to account for superscripted asterisk -->
   <div class="paper-authors col-md-12 col-sm-12 col-xs-12" style="margin-top: -4px;">
-    Thomas Hayes<sup>*</sup>, Songyang Zhang<sup>*</sup>, Xi Yin, Guan Pang, Sasha Sheng, Harry Yang, Songwei Ge, Isabelle Hu, Devi Parikh
+    Thomas Hayes<sup>*</sup>, Songyang Zhang<sup>*</sup>, Xi Yin, Guan Pang, Sasha Sheng, Harry Yang, Songwei Ge, Qiyuan Hu, Devi Parikh
   </div>
   <!-- arxiv and website link -->
   <div class="paper-links col-md-12 col-sm-12 col-xs-12">
