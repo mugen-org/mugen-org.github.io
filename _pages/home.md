@@ -47,11 +47,8 @@ permalink: "/"
     <span class="paper-link">
       <b>Arxiv</b>
     </span>
-    <a class="paper-link button-div" href="/static/bibliography/nocaps_bibtex.txt" target="_blank">
+    <a class="paper-link button-div" href="/static/bibliography/bibtex.txt" target="_blank">
       bibtex
-    </a>
-    <a class="paper-link button-div" href="/static/bibliography/nocaps_natbib.txt" target="_blank">
-      natbib
     </a>
   </div>
 

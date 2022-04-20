@@ -1,0 +1,6 @@
+@article{hayes2022mugen,
+  title={MUGEN: A Playground for Video-Audio-Text Multimodal Understanding and GENeration},
+  author={Hayes, Thomas and Zhang, Songyang and Yin, Xi and Pang, Guan and Sheng, Sasha and Yang, Harry and Ge, Songwei and Hu, Qiyuan and Parikh, Devi},
+  journal={arXiv preprint arXiv:2204.08058},
+  year={2022}
+}
