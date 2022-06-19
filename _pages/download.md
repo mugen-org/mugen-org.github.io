@@ -19,6 +19,9 @@ permalink: "/download"
     </a>
   </div>
 
+  <p>
+  NOTE: we have noticed that the download links may not work sometimes. We suspect this is because of network connection issues. If this happens, please try again later.
+  </p>
 </div>
 <hr>
 
