@@ -45,7 +45,7 @@ permalink: "/"
   <!-- arxiv and website link -->
   <div class="paper-links col-md-12 col-sm-12 col-xs-12">
     <span class="paper-link">
-      <b>Arxiv</b>
+      <b>ECCV 2022</b>
     </span>
     <a class="paper-link button-div" href="static/bibliography/bibtex.txt" target="_blank">
       bibtex
