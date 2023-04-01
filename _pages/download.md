@@ -8,13 +8,13 @@ permalink: "/download"
 <h2 class="anchor" id="download">Download</h2>
 <div class="download-container row"  style="margin-top:50px">
   <div class="col-md-6 col-sm-6 col-xs-12 col-12">
-    <a class="button-div" href="https://dl.noahmt.com/creativity/data/MUGEN_release/coinrun.zip">
+    <a class="button-div" href="https://dl.fbaipublicfiles.com/large_objects/MUGEN_release/coinrun.zip">
     Download 3.2s Video Clips Version
     </a>
   </div>
 
   <div class="col-md-6 col-sm-6 col-xs-12 col-12">
-    <a class="button-div" href="https://dl.noahmt.com/creativity/data/MUGEN_release/full_json_data.zip">
+    <a class="button-div" href="https://dl.fbaipublicfiles.com/large_objects/MUGEN_release/full_json_data.zip">
     Download Full Video Version
     </a>
   </div>
